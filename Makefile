@@ -1,7 +1,7 @@
 # Makefile
 
 CXX = g++
-CXXFLAGS = -std=c++20 -pthread -O0 -ggdb
+CXXFLAGS = -std=c++20 -pthread -O2
 SRC = main.cpp handler/handler.cpp
 OUT = main
 
